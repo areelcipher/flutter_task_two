@@ -63,32 +63,34 @@ class MyApp extends StatelessWidget {
                     ),
                     Container(
                       margin: EdgeInsets.only(bottom: 30.0),
-                      child: Row(
+                      child: Column(
                         children: <Widget>[
                           Container(
-                            margin: EdgeInsets.only(right: 10.0),
+                            margin: EdgeInsets.only(bottom: 5.0),
+                            width: double.infinity,
                             child: new RaisedButton(
                               padding: EdgeInsets.all(10.0),
                               elevation: 10.0,
-                              color: Colors.green,
+                              color: Colors.lightGreen,
                               textColor: Colors.white,
                               onPressed: () => null,
                               child: new Text(
                                 'Login',
-                                style: TextStyle(fontSize: 17.0),
+                                style: TextStyle(fontSize: 20.0),
                               ),
                             ),
                           ),
                           Container(
+                            width: double.infinity,
                             child: new RaisedButton(
                               padding: EdgeInsets.all(10.0),
                               elevation: 10.0,
-                              color: Colors.green,
+                              color: Colors.lightGreen,
                               textColor: Colors.white,
                               onPressed: () => null,
                               child: new Text(
                                 'Sign Up',
-                                style: TextStyle(fontSize: 17.0),
+                                style: TextStyle(fontSize: 20.0),
                               ),
                             ),
                           ),
